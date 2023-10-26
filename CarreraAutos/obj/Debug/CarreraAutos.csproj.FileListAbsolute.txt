@@ -1,0 +1,7 @@
+C:\Users\daniel.gonzalezo\Documents\GitHub\ProyectoProgra\CarreraAutos\obj\Debug\CarreraAutos.csproj.AssemblyReference.cache
+C:\Users\daniel.gonzalezo\Documents\GitHub\ProyectoProgra\CarreraAutos\obj\Debug\CarreraAutos.csproj.CoreCompileInputs.cache
+C:\Users\daniel.gonzalezo\Documents\GitHub\ProyectoProgra\CarreraAutos\bin\Debug\CarreraAutos.exe.config
+C:\Users\daniel.gonzalezo\Documents\GitHub\ProyectoProgra\CarreraAutos\bin\Debug\CarreraAutos.exe
+C:\Users\daniel.gonzalezo\Documents\GitHub\ProyectoProgra\CarreraAutos\bin\Debug\CarreraAutos.pdb
+C:\Users\daniel.gonzalezo\Documents\GitHub\ProyectoProgra\CarreraAutos\obj\Debug\CarreraAutos.exe
+C:\Users\daniel.gonzalezo\Documents\GitHub\ProyectoProgra\CarreraAutos\obj\Debug\CarreraAutos.pdb

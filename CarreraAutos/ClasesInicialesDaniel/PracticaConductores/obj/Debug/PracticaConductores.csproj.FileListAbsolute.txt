@@ -1,0 +1,7 @@
+C:\Users\daniel.gonzalezo\Documents\GitHub\ProyectoProgra\CarreraAutos\ClasesInicialesDaniel\PracticaConductores\bin\Debug\PracticaConductores.exe.config
+C:\Users\daniel.gonzalezo\Documents\GitHub\ProyectoProgra\CarreraAutos\ClasesInicialesDaniel\PracticaConductores\bin\Debug\PracticaConductores.exe
+C:\Users\daniel.gonzalezo\Documents\GitHub\ProyectoProgra\CarreraAutos\ClasesInicialesDaniel\PracticaConductores\bin\Debug\PracticaConductores.pdb
+C:\Users\daniel.gonzalezo\Documents\GitHub\ProyectoProgra\CarreraAutos\ClasesInicialesDaniel\PracticaConductores\obj\Debug\PracticaConductores.csproj.AssemblyReference.cache
+C:\Users\daniel.gonzalezo\Documents\GitHub\ProyectoProgra\CarreraAutos\ClasesInicialesDaniel\PracticaConductores\obj\Debug\PracticaConductores.csproj.CoreCompileInputs.cache
+C:\Users\daniel.gonzalezo\Documents\GitHub\ProyectoProgra\CarreraAutos\ClasesInicialesDaniel\PracticaConductores\obj\Debug\PracticaConductores.exe
+C:\Users\daniel.gonzalezo\Documents\GitHub\ProyectoProgra\CarreraAutos\ClasesInicialesDaniel\PracticaConductores\obj\Debug\PracticaConductores.pdb

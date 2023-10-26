@@ -1,0 +1,14 @@
+C:\Users\daniel.gonzalezo\Documents\GitHub\ProyectoProgra\ClasesInicialesDaniel\ClasesInicialesDaniel\bin\Debug\ClasesInicialesDaniel.exe.config
+C:\Users\daniel.gonzalezo\Documents\GitHub\ProyectoProgra\ClasesInicialesDaniel\ClasesInicialesDaniel\bin\Debug\ClasesInicialesDaniel.exe
+C:\Users\daniel.gonzalezo\Documents\GitHub\ProyectoProgra\ClasesInicialesDaniel\ClasesInicialesDaniel\bin\Debug\ClasesInicialesDaniel.pdb
+C:\Users\daniel.gonzalezo\Documents\GitHub\ProyectoProgra\ClasesInicialesDaniel\ClasesInicialesDaniel\obj\Debug\ClasesInicialesDaniel.csproj.AssemblyReference.cache
+C:\Users\daniel.gonzalezo\Documents\GitHub\ProyectoProgra\ClasesInicialesDaniel\ClasesInicialesDaniel\obj\Debug\ClasesInicialesDaniel.csproj.CoreCompileInputs.cache
+C:\Users\daniel.gonzalezo\Documents\GitHub\ProyectoProgra\ClasesInicialesDaniel\ClasesInicialesDaniel\obj\Debug\ClasesInicialesDaniel.exe
+C:\Users\daniel.gonzalezo\Documents\GitHub\ProyectoProgra\ClasesInicialesDaniel\ClasesInicialesDaniel\obj\Debug\ClasesInicialesDaniel.pdb
+C:\Users\daniel.gonzalezo\Documents\GitHub\ProyectoProgra\CarreraAutos\ClasesInicialesDaniel\ClasesInicialesDaniel\bin\Debug\ClasesInicialesDaniel.exe.config
+C:\Users\daniel.gonzalezo\Documents\GitHub\ProyectoProgra\CarreraAutos\ClasesInicialesDaniel\ClasesInicialesDaniel\bin\Debug\ClasesInicialesDaniel.exe
+C:\Users\daniel.gonzalezo\Documents\GitHub\ProyectoProgra\CarreraAutos\ClasesInicialesDaniel\ClasesInicialesDaniel\bin\Debug\ClasesInicialesDaniel.pdb
+C:\Users\daniel.gonzalezo\Documents\GitHub\ProyectoProgra\CarreraAutos\ClasesInicialesDaniel\ClasesInicialesDaniel\obj\Debug\ClasesInicialesDaniel.csproj.AssemblyReference.cache
+C:\Users\daniel.gonzalezo\Documents\GitHub\ProyectoProgra\CarreraAutos\ClasesInicialesDaniel\ClasesInicialesDaniel\obj\Debug\ClasesInicialesDaniel.csproj.CoreCompileInputs.cache
+C:\Users\daniel.gonzalezo\Documents\GitHub\ProyectoProgra\CarreraAutos\ClasesInicialesDaniel\ClasesInicialesDaniel\obj\Debug\ClasesInicialesDaniel.exe
+C:\Users\daniel.gonzalezo\Documents\GitHub\ProyectoProgra\CarreraAutos\ClasesInicialesDaniel\ClasesInicialesDaniel\obj\Debug\ClasesInicialesDaniel.pdb
