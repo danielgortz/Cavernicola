@@ -8,6 +8,7 @@ public class Personaje : MonoBehaviour
     public int hpMax = 100;
     public int score = 0;
     public int vidas = 3;
+    public GameObject efectoSangrePrefab;
     private Animator miAnimador;
     void Start()
     {
@@ -18,6 +19,10 @@ public class Personaje : MonoBehaviour
         print(name + "recibe daño de " + puntos + "por" + atacante.name);
         hp = hp - puntos;
         miAnimador.SetTrigger("DAÑAR");
+        //creo una instancia de la part de sangre
+        GameObject sangre = Instantiate(
+            efectoSangrePrefab, transform);
+
     }
     public void perderVida(int puntosVida, GameObject atacante)
     {

@@ -179,3 +179,4 @@ MonoBehaviour:
   hpMax: 100
   score: 0
   vidas: 3
+  efectoSangrePrefab: {fileID: 6823200998282874702, guid: 8f8fe12323625f5499b2853dd2ad3e58, type: 3}
