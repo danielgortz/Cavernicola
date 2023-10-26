@@ -5,6 +5,8 @@ using UnityEngine;
 public class ZonaMuerte : MonoBehaviour
 {
     public int puntosVida = 1;
+    public GameObject splashAwa;
+
     private void OnTriggerEnter2D(Collider2D trigger)
     {
         print(name + "hizo colision con" + trigger.gameObject.name);
@@ -14,7 +16,10 @@ public class ZonaMuerte : MonoBehaviour
             //Accede al componente de tipo Personaje del objeto con el que choquè
             Personaje elPerso = otro.GetComponent<Personaje>();
             //Aplico el daño al otro invocando el metodo hacer daño
-            elPerso.perderVida(puntosVida, this.gameObject); 
+            elPerso.perderVida(puntosVida, this.gameObject);
+
+            GameObject agua = Instantiate(splashAwa);
+            agua.transform.position = elPerso.transform.position;
         }
     }
 }
