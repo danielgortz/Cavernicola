@@ -74,18 +74,24 @@ public class ControladorJugador : MonoBehaviour
             misSonidos.reproducir("SALTAR");
         }
           
+        if(Input.GetButtonDown("Firel"))
+        {//atacar
+            miAnimador.SetTrigger("Ataca");
+        }
+
+
+
 
         miAnimador.SetFloat("vel_vert", velActualVert);
        
-    }
-
-
+  }
     public void comprobarPiso()
-    {
-        //Lanzar rayo de deteccion de colisiones
-        //hacia abajo desde la posicion del este objeto
-        //(cavernicola)
-        enPiso = Physics2D.Raycast(
+        {
+
+            //Lanzar rayo de deteccion de colisiones
+            //hacia abajo desde la posicion del este objeto
+            //(cavernicola)
+            enPiso = Physics2D.Raycast(
             transform.position,//desde donde
             Vector2.down,//hacia abajo
             0.1f);//distancia
