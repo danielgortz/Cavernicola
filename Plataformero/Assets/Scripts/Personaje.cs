@@ -8,6 +8,7 @@ public class Personaje : MonoBehaviour
     public int hpMax = 100;
     public int score = 0;
     public int vidas = 3;
+    public bool aturdido = false;
     private Animator miAnimador;
     public GameObject efectoSangrePrefab;
     private ReproductorSonidos misSonidos;
@@ -23,8 +24,16 @@ public class Personaje : MonoBehaviour
         miAnimador.SetTrigger("DAÑAR");
         GameObject sangre = Instantiate(efectoSangrePrefab, transform);
         misSonidos.reproducir("DAÑAR");
+        aturdido = true;
+        Invoke("desaturdir", 1);
     }
-        
+
+    private void desaturdir()
+    {
+        aturdido = false;
+    }
+
+
     //public void matar()
     public void matar(int puntosVida, GameObject atacante)
     {

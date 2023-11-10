@@ -16,6 +16,7 @@ public class ControladorJugador : MonoBehaviour
     private Animator miAnimador;
     private float saltosRest;
     private ReproductorSonidos misSonidos;
+    private Personaje miPersonaje;
 
     void Start()
     {
@@ -24,6 +25,7 @@ public class ControladorJugador : MonoBehaviour
         miAnimador = GetComponent<Animator>();
         saltosRest = saltosMax;
         misSonidos = GetComponent<ReproductorSonidos>();
+        miPersonaje = GetComponent<Personaje>();
     }
 
     // Update is called once per frame
@@ -36,14 +38,14 @@ public class ControladorJugador : MonoBehaviour
         float velActualVert = miCuerpo.velocity.y;
         float movHoriz = Input.GetAxis("Horizontal");
 
-        if (movHoriz > 0)
+        if (movHoriz > 0 && !miPersonaje.aturdido)//a la derecha
         {
             transform.rotation = Quaternion.Euler(0, 0, 0);
             miCuerpo.velocity = new Vector3(velocidadCaminar, velActualVert, 0);
             //cavernicola.flipX = false;
             miAnimador.SetBool("caminando", true);
         }
-        else if (movHoriz < 0)
+        else if (movHoriz < 0 && !miPersonaje.aturdido)//a la izquierda
         {
             transform.rotation = Quaternion.Euler(0, 180, 0);
             miCuerpo.velocity = new Vector3(-velocidadCaminar, velActualVert, 0);
@@ -67,7 +69,7 @@ public class ControladorJugador : MonoBehaviour
             miAnimador.SetBool("en_piso", false);
         }
 
-        if (Input.GetButtonDown("Jump") && saltosRest > 0)
+        if (Input.GetButtonDown("Jump") && saltosRest > 0 && !miPersonaje.aturdido) 
         {
             saltosRest--;
             miCuerpo.AddForce(new Vector3(0, fuerzaSalto, 0), ForceMode2D.Impulse);
@@ -75,7 +77,7 @@ public class ControladorJugador : MonoBehaviour
             misSonidos.reproducir("SALTAR");
         }
           
-        if(Input.GetButtonDown("Fire1"))
+        if(Input.GetButtonDown("Fire1") && !miPersonaje.aturdido)
         {//atacar
             miAnimador.SetTrigger("Ataca");
         }
