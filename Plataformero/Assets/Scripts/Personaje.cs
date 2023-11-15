@@ -1,17 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class Personaje : MonoBehaviour
 {
     public int hp = 60;
     public int hpMax = 100;
     public int score = 0;
-    public int vidas = 3;
-    public bool aturdido = false;
+    public static int vidas = 3;
     private Animator miAnimador;
     public GameObject efectoSangrePrefab;
     private ReproductorSonidos misSonidos;
+    public bool aturdido = false;
+    public bool muerto = false;
+
     void Start()
     {
         misSonidos = GetComponent<ReproductorSonidos>();
@@ -26,21 +29,31 @@ public class Personaje : MonoBehaviour
         misSonidos.reproducir("DAÑAR");
         aturdido = true;
         Invoke("desaturdir", 1);
+        if (hp <= 0 && vidas <= 0)
+        {
+            Personaje elPerso = GetComponent<Personaje>();
+            elPerso.matar(this.gameObject);
+        }
+        else if (hp <= 0 && vidas > 0)
+        {
+            vidas--;
+            muerto = true;
+        }
+
     }
 
-    private void desaturdir()
-    {
-        aturdido = false;
-    }
-
-
-    //public void matar()
-    public void matar(int puntosVida, GameObject atacante)
+    public void matar(GameObject atacante)
     {
         print(name + "Muere por " + atacante.name);
-        vidas = vidas - puntosVida;
+        vidas = 0;
         hp = 0;
         miAnimador.SetTrigger("MATAR");
         misSonidos.reproducir("MATAR");
+
+        muerto = true;
+    }
+    private void desaturdir()
+    {
+        aturdido = false;
     }
 }

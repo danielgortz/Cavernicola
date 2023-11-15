@@ -110,6 +110,8 @@ public class ControladorJugador : MonoBehaviour
             Personaje elPerso = otro.GetComponent<Personaje>();
             //Aplico el daño al otro invocando el metodo hacer daño
             elPerso.hacerDanio(DanioArma, this.gameObject);
+            
+            
 
 
 

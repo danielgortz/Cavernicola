@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class ZonaMuerte : MonoBehaviour
 {
-    public int puntosVida = 1;
+    public int puntosHp = 100;
     public GameObject efectoAguaPrefab;
     private ReproductorSonidos misSonidos;
+
 
     void Start()
     {
@@ -21,8 +22,7 @@ public class ZonaMuerte : MonoBehaviour
             //Accede al componente de tipo Personaje del objeto con el que choquè
             Personaje elPerso = otro.GetComponent<Personaje>();
             //Aplico el daño al otro invocando el metodo hacer daño
-            elPerso.matar(puntosVida, this.gameObject);
-
+            elPerso.hacerDanio(puntosHp, this.gameObject);
             GameObject agua = Instantiate(efectoAguaPrefab, elPerso.transform);
             misSonidos.reproducir("SPLASH");
         }
