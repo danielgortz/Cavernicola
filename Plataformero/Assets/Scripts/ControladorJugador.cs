@@ -23,7 +23,7 @@ public class ControladorJugador : MonoBehaviour
     {
         miPersonaje = GetComponent<Personaje>();
         miCuerpo = GetComponent<Rigidbody2D>();
-        // cavernicola = GetComponent<SpriteRenderer>();
+       // cavernicola = GetComponent<SpriteRenderer>();
         miAnimador = GetComponent<Animator>();
         saltosRest = saltosMax;
         misSonidos = GetComponent<ReproductorSonidos>();
@@ -65,7 +65,7 @@ public class ControladorJugador : MonoBehaviour
             saltosRest = saltosMax;
             miAnimador.SetBool("en_piso", true);
         }
-        else if (enPiso == false)
+        else if (enPiso==false)
         {
             miAnimador.SetBool("en_piso", false);
         }

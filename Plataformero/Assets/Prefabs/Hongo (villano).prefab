@@ -141,9 +141,8 @@ MonoBehaviour:
   hp: 60
   hpMax: 100
   score: 0
+  vidas: 3
   efectoSangrePrefab: {fileID: 0}
-  aturdido: 0
-  muerto: 0
 --- !u!114 &6563151185996075455
 MonoBehaviour:
   m_ObjectHideFlags: 0

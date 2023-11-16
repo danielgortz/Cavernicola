@@ -12,12 +12,12 @@ public class Enemigo_mediano : MonoBehaviour
     private Rigidbody2D miCuerpo;
     private Animator miAnimador;
     public int puntosDanio = 10;
-    //private CapsuleCollider2D miCollider;
     public GameObject efectoGolpePrefab;
+    private Personaje miPersonaje;
 
     void Start()
     {
-        //miCollider = GetComponent<CapsuleCollider2D>();
+        miPersonaje = GetComponent<Personaje>();
         heroe = GameObject.FindWithTag("Player");
         miCuerpo = GetComponent<Rigidbody2D>();
         miAnimador = GetComponent<Animator>();
@@ -31,7 +31,7 @@ public class Enemigo_mediano : MonoBehaviour
         float distancia = (posYo - posHeroe).magnitude;
         float velActualVert = miCuerpo.velocity.y;
 
-        if (distancia < distanciaAgro && distancia > distanciaAgroCorta)
+        if (distancia < distanciaAgro && distancia > distanciaAgroCorta && !miPersonaje.aturdido && !miPersonaje.muerto)
         {//El heroe esta fuera de la zona de agro
             if(posHeroe.x > posYo.x)
             {//El heroe derecha villando
@@ -48,7 +48,7 @@ public class Enemigo_mediano : MonoBehaviour
                 miAnimador.SetBool("atacando", false);
             }
         }
-        else if (distancia < distanciaAgro && distancia < distanciaAgroCorta)
+        else if (distancia < distanciaAgro && distancia < distanciaAgroCorta && !miPersonaje.aturdido && !miPersonaje.muerto)
         {
             if (posHeroe.x > posYo.x)
             {
@@ -56,7 +56,6 @@ public class Enemigo_mediano : MonoBehaviour
                 miCuerpo.velocity = new Vector3(0, 0, 0);
                 miAnimador.SetBool("atacando", true);
                 miAnimador.SetBool("caminando", false);
-                //miCollider.size = new Vector2(2.7f, 1.2f);
             }
             else
             {
@@ -64,7 +63,6 @@ public class Enemigo_mediano : MonoBehaviour
                 miCuerpo.velocity = new Vector3(0, 0, 0);
                 miAnimador.SetBool("atacando", true);
                 miAnimador.SetBool("caminando", false);
-                //miCollider.size = new Vector2(2.7f, 1.2f);
             }
         }
         else

@@ -33,7 +33,7 @@ public class Personaje : MonoBehaviour
         {
             Personaje elPerso = GetComponent<Personaje>();
             elPerso.matar(this.gameObject);
-        }
+        }    
         if (hp <= 0 && vidas > 0)
         {
             vidas--;
@@ -54,7 +54,7 @@ public class Personaje : MonoBehaviour
     }
     private void desaturdir()
     {
-        aturdido = false;
+        aturdido= false;
     }
     public bool gameOver()
     {

@@ -14,13 +14,13 @@ public class ControladorUI : MonoBehaviour
     public GameObject gameOver;
     void Start()
     {
-
+        
     }
     void Update()
     {
         etiquetaHPHeroe.text =
             heroe.hp + "/" + heroe.hpMax;
-        float porcentajeHP =
+        float porcentajeHP = 
             heroe.hp / (float)heroe.hpMax;
         barraHPHeroe.fillAmount = porcentajeHP;
         etiquetaScore.text = "Score: " + heroe.score.ToString();
@@ -29,7 +29,7 @@ public class ControladorUI : MonoBehaviour
         {
             gameOver.SetActive(true);
         }
-
+        
     }
 
 }

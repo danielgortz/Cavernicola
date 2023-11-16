@@ -2,9 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
 public class ControladorEnemigoPequenio : MonoBehaviour
-
+    
 {
     public float velocidadCaminar = 3f;
     public float distanciaAgro = 5;
@@ -30,7 +29,7 @@ public class ControladorEnemigoPequenio : MonoBehaviour
 
         if (distancia < distanciaAgro && !miPersonaje.aturdido && !miPersonaje.muerto)
         {//El heroe esta fuera de la zona de agro
-            if (posHeroe.x > posYo.x)
+            if(posHeroe.x > posYo.x)
             {//El heroe derecha villando
                 transform.rotation = Quaternion.Euler(0, 0, 0);
                 miCuerpo.velocity = new Vector3(velocidadCaminar, velActualVert, 0);
