@@ -2,8 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class ControladorEnemigoPequenio : MonoBehaviour
-    
+
 {
     public float velocidadCaminar = 3f;
     public float distanciaAgro = 5;
@@ -12,13 +13,12 @@ public class ControladorEnemigoPequenio : MonoBehaviour
     private Animator miAnimador;
     public int puntosDanio = 10;
     private Personaje miPersonaje;
-
     void Start()
     {
+        miPersonaje = GetComponent<Personaje>();
         heroe = GameObject.FindWithTag("Player");
         miCuerpo = GetComponent<Rigidbody2D>();
         miAnimador = GetComponent<Animator>();
-        miPersonaje = GetComponent<Personaje>();
     }
 
     void Update()
@@ -28,15 +28,15 @@ public class ControladorEnemigoPequenio : MonoBehaviour
         float distancia = (posYo - posHeroe).magnitude;
         float velActualVert = miCuerpo.velocity.y;
 
-        if (distancia < distanciaAgro && !miPersonaje.aturdido)
+        if (distancia < distanciaAgro && !miPersonaje.aturdido && !miPersonaje.muerto)
         {//El heroe esta fuera de la zona de agro
-            if(posHeroe.x > posYo.x && !miPersonaje.muerto)
+            if (posHeroe.x > posYo.x)
             {//El heroe derecha villando
                 transform.rotation = Quaternion.Euler(0, 0, 0);
                 miCuerpo.velocity = new Vector3(velocidadCaminar, velActualVert, 0);
                 miAnimador.SetBool("caminando", true);
             }
-            if else (posHeroe.x <posYo.x && !miPersonaje.muerto)
+            else
             {//El heroe izquierda villando
                 transform.rotation = Quaternion.Euler(0, 180, 0);
                 miCuerpo.velocity = new Vector3(-velocidadCaminar, velActualVert, 0);
