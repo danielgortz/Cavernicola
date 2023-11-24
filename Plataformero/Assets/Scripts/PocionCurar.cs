@@ -27,7 +27,7 @@ public class PocionCurar : MonoBehaviour
             miAnimador.SetTrigger("OBTENER");
             heroe.hp = heroe.hp + curarPuntos;
             GetComponent<Collider2D>().enabled = false;
-            Destroy(gameObject, 3);
+            Destroy(gameObject, 1);
         }
     }
 }

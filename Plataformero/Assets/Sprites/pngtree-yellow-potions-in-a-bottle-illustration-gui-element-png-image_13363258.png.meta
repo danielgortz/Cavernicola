@@ -1,0 +1,180 @@
+fileFormatVersion: 2
+guid: 22530e3326914c94d9f7c4c964626cde
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pngtree-yellow-potions-in-a-bottle-illustration-gui-element-png-image_13363258_10
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 57
+        width: 596
+        height: 1022
+      alignment: 9
+      pivot: {x: 0.4776565, y: 0.46742496}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b73289ed8780349ad2a6dac07c72aa
+      internalID: -1988456615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      pngtree-yellow-potions-in-a-bottle-illustration-gui-element-png-image_13363258_0: 1150049159
+      pngtree-yellow-potions-in-a-bottle-illustration-gui-element-png-image_13363258_1: 1782108559
+      pngtree-yellow-potions-in-a-bottle-illustration-gui-element-png-image_13363258_10: -1988456615
+      pngtree-yellow-potions-in-a-bottle-illustration-gui-element-png-image_13363258_11: -1706859438
+      pngtree-yellow-potions-in-a-bottle-illustration-gui-element-png-image_13363258_12: -1936346962
+      pngtree-yellow-potions-in-a-bottle-illustration-gui-element-png-image_13363258_13: 792841669
+      pngtree-yellow-potions-in-a-bottle-illustration-gui-element-png-image_13363258_14: -1408082742
+      pngtree-yellow-potions-in-a-bottle-illustration-gui-element-png-image_13363258_15: -2118322683
+      pngtree-yellow-potions-in-a-bottle-illustration-gui-element-png-image_13363258_16: -1174690372
+      pngtree-yellow-potions-in-a-bottle-illustration-gui-element-png-image_13363258_17: -876651776
+      pngtree-yellow-potions-in-a-bottle-illustration-gui-element-png-image_13363258_18: 1646487524
+      pngtree-yellow-potions-in-a-bottle-illustration-gui-element-png-image_13363258_19: 213765318
+      pngtree-yellow-potions-in-a-bottle-illustration-gui-element-png-image_13363258_2: -664594278
+      pngtree-yellow-potions-in-a-bottle-illustration-gui-element-png-image_13363258_20: -66248378
+      pngtree-yellow-potions-in-a-bottle-illustration-gui-element-png-image_13363258_21: -1113915081
+      pngtree-yellow-potions-in-a-bottle-illustration-gui-element-png-image_13363258_22: 1298657970
+      pngtree-yellow-potions-in-a-bottle-illustration-gui-element-png-image_13363258_23: -1649292816
+      pngtree-yellow-potions-in-a-bottle-illustration-gui-element-png-image_13363258_24: 137079047
+      pngtree-yellow-potions-in-a-bottle-illustration-gui-element-png-image_13363258_25: 901096963
+      pngtree-yellow-potions-in-a-bottle-illustration-gui-element-png-image_13363258_26: 1790111317
+      pngtree-yellow-potions-in-a-bottle-illustration-gui-element-png-image_13363258_27: 344126490
+      pngtree-yellow-potions-in-a-bottle-illustration-gui-element-png-image_13363258_28: -1474276484
+      pngtree-yellow-potions-in-a-bottle-illustration-gui-element-png-image_13363258_29: -636768366
+      pngtree-yellow-potions-in-a-bottle-illustration-gui-element-png-image_13363258_3: 1407166419
+      pngtree-yellow-potions-in-a-bottle-illustration-gui-element-png-image_13363258_30: 1778458321
+      pngtree-yellow-potions-in-a-bottle-illustration-gui-element-png-image_13363258_31: -2044226341
+      pngtree-yellow-potions-in-a-bottle-illustration-gui-element-png-image_13363258_32: 1673078144
+      pngtree-yellow-potions-in-a-bottle-illustration-gui-element-png-image_13363258_33: -1392061918
+      pngtree-yellow-potions-in-a-bottle-illustration-gui-element-png-image_13363258_34: 25849148
+      pngtree-yellow-potions-in-a-bottle-illustration-gui-element-png-image_13363258_35: -1638142369
+      pngtree-yellow-potions-in-a-bottle-illustration-gui-element-png-image_13363258_4: 2073930238
+      pngtree-yellow-potions-in-a-bottle-illustration-gui-element-png-image_13363258_5: -1248378672
+      pngtree-yellow-potions-in-a-bottle-illustration-gui-element-png-image_13363258_6: 1727437374
+      pngtree-yellow-potions-in-a-bottle-illustration-gui-element-png-image_13363258_7: -651564249
+      pngtree-yellow-potions-in-a-bottle-illustration-gui-element-png-image_13363258_8: 1104305194
+      pngtree-yellow-potions-in-a-bottle-illustration-gui-element-png-image_13363258_9: 1594094577
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
