@@ -23,7 +23,7 @@ public class Veneno : MonoBehaviour
         {
             InvokeRepeating("DanioRepeat", 0f, repetirDanio);
             GetComponent<Collider2D>().enabled = false;
-            Destroy(gameObject, 2f);
+            Destroy(gameObject, 6f);
             miAnimador.SetTrigger("OBTENER");
         }
     }
