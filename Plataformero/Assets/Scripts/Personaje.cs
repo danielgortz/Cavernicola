@@ -5,6 +5,16 @@ using System;
 
 public class Personaje : MonoBehaviour
 {
+    public enum TiposDanio
+    {
+        Fisico,
+        Magico,
+        Fuego,
+        Aire,
+        Contundente,
+        Cortante,
+    }
+
     public int hp = 60;
     public int hpMax = 100;
     public int score = 0;

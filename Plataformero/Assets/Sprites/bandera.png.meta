@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 708e53a4c6716a04f9ebd784f9f3538c
+guid: d326b53471e600a4bbe2330959edb747
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -90,7 +90,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Server
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -102,7 +102,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Android
+    buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -117,43 +117,106 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pngtree-cute-love-potions-bottle-illustration-png-image_9055553_1
+      name: bandera_0
       rect:
         serializedVersion: 2
-        x: 299
-        y: 25
-        width: 638
-        height: 1155
+        x: 5
+        y: 2
+        width: 32
+        height: 50
       alignment: 9
-      pivot: {x: 0.47981316, y: 0.008264646}
+      pivot: {x: 0.5054709, y: 0.048319302}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da24498d0b5a9d74d9db6befdfa1a139
-      internalID: -824411227
+      spriteID: 3f7c534df878b1d4b8f2773a9ddb795b
+      internalID: 783221262
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pngtree-cute-love-potions-bottle-illustration-png-image_9055553_29
+      name: bandera_1
       rect:
         serializedVersion: 2
-        x: 575
-        y: 14
-        width: 11
-        height: 10
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 65
+        y: 2
+        width: 30
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5, y: 0.041316498}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a78f9467eeb222418e17e75c294d9aa
-      internalID: -561557198
+      spriteID: b6b318b7ff5933249809c1d175f9084e
+      internalID: 165729362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandera_2
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 2
+        width: 31
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5169422, y: 0.069327705}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a27b95d2f47ce4c83346d3fd736ed3
+      internalID: -110595645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandera_3
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 2
+        width: 32
+        height: 50
+      alignment: 9
+      pivot: {x: 0.5218835, y: 0.062324904}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c26c21391ba9145979302728f93c16
+      internalID: -2074128003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandera_4
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 2
+        width: 30
+        height: 50
+      alignment: 9
+      pivot: {x: 0.52917784, y: 0.048319302}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a68d571835cb8894fbff8c5707b4331c
+      internalID: -1890639574
       vertices: []
       indices: 
       edges: []
@@ -169,36 +232,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      pngtree-cute-love-potions-bottle-illustration-png-image_9055553_0: 803286783
-      pngtree-cute-love-potions-bottle-illustration-png-image_9055553_1: -824411227
-      pngtree-cute-love-potions-bottle-illustration-png-image_9055553_10: -1413079404
-      pngtree-cute-love-potions-bottle-illustration-png-image_9055553_11: 1612976149
-      pngtree-cute-love-potions-bottle-illustration-png-image_9055553_12: 1547738955
-      pngtree-cute-love-potions-bottle-illustration-png-image_9055553_13: 305015012
-      pngtree-cute-love-potions-bottle-illustration-png-image_9055553_14: -550133091
-      pngtree-cute-love-potions-bottle-illustration-png-image_9055553_15: 1169239891
-      pngtree-cute-love-potions-bottle-illustration-png-image_9055553_16: -1954105304
-      pngtree-cute-love-potions-bottle-illustration-png-image_9055553_17: -1903148810
-      pngtree-cute-love-potions-bottle-illustration-png-image_9055553_18: 1123249743
-      pngtree-cute-love-potions-bottle-illustration-png-image_9055553_19: -990094015
-      pngtree-cute-love-potions-bottle-illustration-png-image_9055553_2: -314039347
-      pngtree-cute-love-potions-bottle-illustration-png-image_9055553_20: 710153515
-      pngtree-cute-love-potions-bottle-illustration-png-image_9055553_21: 1234406674
-      pngtree-cute-love-potions-bottle-illustration-png-image_9055553_22: 382081482
-      pngtree-cute-love-potions-bottle-illustration-png-image_9055553_23: 2009752873
-      pngtree-cute-love-potions-bottle-illustration-png-image_9055553_24: -1266839850
-      pngtree-cute-love-potions-bottle-illustration-png-image_9055553_25: 954074548
-      pngtree-cute-love-potions-bottle-illustration-png-image_9055553_26: 2077096446
-      pngtree-cute-love-potions-bottle-illustration-png-image_9055553_27: -89753587
-      pngtree-cute-love-potions-bottle-illustration-png-image_9055553_28: 272013540
-      pngtree-cute-love-potions-bottle-illustration-png-image_9055553_29: -561557198
-      pngtree-cute-love-potions-bottle-illustration-png-image_9055553_3: -1908139564
-      pngtree-cute-love-potions-bottle-illustration-png-image_9055553_4: -1538520666
-      pngtree-cute-love-potions-bottle-illustration-png-image_9055553_5: -406264783
-      pngtree-cute-love-potions-bottle-illustration-png-image_9055553_6: -568873251
-      pngtree-cute-love-potions-bottle-illustration-png-image_9055553_7: 1881501074
-      pngtree-cute-love-potions-bottle-illustration-png-image_9055553_8: -1245231313
-      pngtree-cute-love-potions-bottle-illustration-png-image_9055553_9: -367637803
+      bandera_0: 783221262
+      bandera_1: 165729362
+      bandera_2: -110595645
+      bandera_3: -2074128003
+      bandera_4: -1890639574
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
