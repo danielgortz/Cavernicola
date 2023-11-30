@@ -1252,7 +1252,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea2fae26c110f4e40a2a457eafdb1ba4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  reaparecePrefab: {fileID: 0}
+  reaparecePrefab: {fileID: 2433282508537954060, guid: 3ef3ae421f71c5c4e97fe12dc2fc6312, type: 3}
 --- !u!114 &223673165
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24162,11 +24162,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4816191139135958057, guid: 6798ee50ca713a5458cb49778079d6cd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 22.88
+      value: 22.85
       objectReference: {fileID: 0}
     - target: {fileID: 4816191139135958057, guid: 6798ee50ca713a5458cb49778079d6cd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.06
+      value: 3.14
       objectReference: {fileID: 0}
     - target: {fileID: 4816191139135958057, guid: 6798ee50ca713a5458cb49778079d6cd, type: 3}
       propertyPath: m_LocalPosition.z
