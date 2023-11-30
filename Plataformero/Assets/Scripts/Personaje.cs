@@ -73,4 +73,9 @@ public class Personaje : MonoBehaviour
     {
         return vidas <= 0;
     }
+    public void festejar(GameObject atacante)
+    {
+        miAnimador.SetTrigger("FESTEJAR");
+        muerto = true;
+    }
 }
