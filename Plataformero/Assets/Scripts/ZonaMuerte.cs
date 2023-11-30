@@ -7,6 +7,7 @@ public class ZonaMuerte : MonoBehaviour
     public int puntosVida = 1;
     public GameObject efectoAguaPrefab;
     private ReproductorSonidos misSonidos;
+    public int puntosDanio = 100;
 
     void Start()
     {
@@ -21,7 +22,7 @@ public class ZonaMuerte : MonoBehaviour
             //Accede al componente de tipo Personaje del objeto con el que choquè
             Personaje elPerso = otro.GetComponent<Personaje>();
             //Aplico el daño al otro invocando el metodo hacer daño
-            elPerso.matar(this.gameObject);
+            elPerso.hacerDanio(puntosDanio, this.gameObject);
             GameObject agua = Instantiate(efectoAguaPrefab, elPerso.transform);
             misSonidos.reproducir("SPLASH");
         }

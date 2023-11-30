@@ -5,16 +5,12 @@ using System;
 
 public class Personaje : MonoBehaviour
 {
-    public enum TiposDanio
+    public enum TiposdeDanio
     {
         Fisico,
         Magico,
-        Fuego,
-        Aire,
-        Contundente,
-        Cortante,
+        Toxico
     }
-
     public int hp = 60;
     public int hpMax = 100;
     public int score = 0;
@@ -30,24 +26,31 @@ public class Personaje : MonoBehaviour
         misSonidos = GetComponent<ReproductorSonidos>();
         miAnimador = GetComponent<Animator>();
     }
-    public void hacerDanio(int puntos, GameObject atacante)
+    public void hacerDanio(int puntos, GameObject atacante, TiposdeDanio tipo = TiposdeDanio.Fisico)
     {
-        print(name + "recibe daño de " + puntos + "por" + atacante.name);
+        print(name + "recibe daño de " + puntos + "por " + atacante.name + " de tipo" + tipo);
         hp = hp - puntos;
-        miAnimador.SetTrigger("DAÑAR");
-        GameObject sangre = Instantiate(efectoSangrePrefab, transform);
         misSonidos.reproducir("DAÑAR");
-        aturdido = true;
         Invoke("desaturdir", 1);
         if (hp <= 0 && vidas <= 0)
         {
             Personaje elPerso = GetComponent<Personaje>();
             elPerso.matar(this.gameObject);
-        }    
+        }
         if (hp <= 0 && vidas > 0)
         {
             vidas--;
             muerto = true;
+        }
+        if (tipo == TiposdeDanio.Fisico)
+        {
+            miAnimador.SetTrigger("DAÑAR");
+            aturdido = true;
+            GameObject sangre = Instantiate(efectoSangrePrefab, transform);
+        }
+        else if (tipo == TiposdeDanio.Toxico)
+        {
+            
         }
 
     }
