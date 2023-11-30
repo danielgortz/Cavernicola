@@ -1265,7 +1265,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad4fc5f9d8eb72e488d17a8ac2bfa690, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  efectos: []
+  efectos:
+  - accion: SUCCES
+    archivoSonido: {fileID: 8300000, guid: ac772c26f3097b54e867ac187a69ec56, type: 3}
 --- !u!82 &223673166
 AudioSource:
   m_ObjectHideFlags: 0
@@ -14714,7 +14716,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad4fc5f9d8eb72e488d17a8ac2bfa690, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  efectos: []
+  efectos:
+  - accion: CELEBRATION
+    archivoSonido: {fileID: 8300000, guid: 72a30d061a82938449aec4bbfbea8ffe, type: 3}
 --- !u!82 &931607337
 AudioSource:
   m_ObjectHideFlags: 0
